@@ -1,5 +1,3 @@
----
-
 # Mummus-Hummus
 
 A modern, responsive frontend website for Mummus — a creative Middle Eastern eatery specializing in fusion-style hummus dishes and more. Built using **React** and **Vite**, this project showcases a clean and appetizing UI for restaurant menus, galleries, and contact information.
@@ -33,7 +31,3 @@ npm run dev
 
 This project is live on Vercel:
 👉 [Visit Website](https://mummus-hummus.vercel.app)
-
----
-
-Let me know if you'd like a short description version or an "About" section too.
