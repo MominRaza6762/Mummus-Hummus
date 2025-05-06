@@ -13,7 +13,7 @@ A modern, responsive frontend website for Mummus — a creative Middle Eastern e
 ## 🔧 Technologies Used
 
 * React (via Vite)
-* CSS (custom styling)
+* Tailwind CSS
 * Deployed on Vercel
 
 ## 🚀 Getting Started
