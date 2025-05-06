@@ -1,0 +1,204 @@
+// <div class="container-fluid p-0">
+    //   <div class="d-xl-block" id="section">
+    //     <div class="row m-0" style={{ zIndex: "9999" }}>
+    //       <div class="col-12 p-0">
+    //         <div class="">
+    //           <img
+    //             src="Assets/top_banner_bg.png"
+    //             class="w-100 banner_img"
+    //             alt=""
+    //           />
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div class="banner">
+    //       <div class="row">
+    //         <div class="col-3 ml-auto">
+    //           <img src="Assets/logo.png" class="imges" alt="" />
+    //         </div>
+    //         <div class="col-8 pr-lg-0">
+    //           <nav class="navbar navbar-expand-xl navbar-light">
+    //             <button
+    //               class="navbar-toggler"
+    //               type="button"
+    //               data-toggle="collapse"
+    //               data-target="#navbarSupportedContent"
+    //               aria-controls="navbarSupportedContent"
+    //               aria-expanded="false"
+    //               aria-label="Toggle navigation"
+    //             >
+    //               <span class="navbar-toggler-icon"></span>
+    //             </button>
+    //             <div
+    //               class="collapse navbar-collapse"
+    //               id="navbarSupportedContent"
+    //             >
+    //               <ul
+    //                 class="navbar-nav m-auto"
+    //                 style={{ display: "flex", alignItems: "center" }}
+    //               >
+    //                 <li class="nav-item ">
+    //                   <a class="nav-link  text-light" href="#section">
+    //                     <span>Home</span>
+    //                   </a>
+    //                 </li>
+    //                 <li class="nav-item">
+    //                   <a class="nav-link se text-light" href="#section1">
+    //                     <span>About</span>
+    //                   </a>
+    //                 </li>
+    //                 <li class="nav-item ">
+    //                   <a class="nav-link se text-light" href="#section2">
+    //                     <span>Menu</span>
+    //                   </a>
+    //                 </li>
+    //                 <li class="nav-item">
+    //                   <a class="nav-link se text-light" href="#section3">
+    //                     <span>Gallery</span>
+    //                   </a>
+    //                 </li>
+    //                 <li class="nav-item ">
+    //                   <a class="nav-link se text-light" href="#section4">
+    //                     <span>Contact</span>
+    //                   </a>
+    //                 </li>
+    //                 <button class="cateringmenubtn">
+    //                   <Link to="/catering-menu">Catering Menu</Link>
+    //                 </button>
+
+    //                 <li class="nav-item dropdown ml-lg-3 ml-0">
+    //                   <button
+    //                     class="btn btn-light dropdown"
+    //                     id="navbarDropdown"
+    //                     role="button"
+    //                     data-toggle="dropdown"
+    //                     aria-haspopup="true"
+    //                     aria-expanded="false"
+    //                   >
+    //                     <div class="se">
+    //                       <img
+    //                         src="Assets/swedish_flag.png"
+    //                         alt=""
+    //                         class="flag"
+    //                       />
+    //                       <span class="d-inline-block px-2">Svenska</span>
+    //                       <img class="pr-2" src="Assets/drop_down.png" alt="" />
+    //                     </div>
+    //                     <div class="en">
+    //                       <img
+    //                         src="https://ilunch.nu/public/public_site_assets/images/e-flag.png"
+    //                         alt=""
+    //                         class="flag"
+    //                       />
+    //                       <span class="d-inline-block px-2">English</span>
+    //                       <img class="pr-2" src="Assets/drop_down.png" alt="" />
+    //                     </div>
+    //                   </button>
+    //                   <div
+    //                     class="dropdown-menu"
+    //                     aria-labelledby="navbarDropdown"
+    //                   >
+    //                     <a class="dropdown-item" id="se" href="#se" title="">
+    //                       Svenska
+    //                     </a>
+    //                     <a class="dropdown-item" id="en" href="#en">
+    //                       English
+    //                     </a>
+    //                   </div>
+    //                 </li>
+    //               </ul>
+    //             </div>
+    //           </nav>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   {/* <div class="d-xl-none d-block" id="section">
+    //         <div class="banner-1">
+    //             <div class="row">
+    //                 <div class="col-12">
+    //                     <nav class="navbar navbar-expand-lg navbar-light">
+    //                         <a href="" class="navbar-brand">
+    //                             <img src="Assets/logo.png" class="w-100" alt="" />
+    //                         </a>
+    //                         <button class="navbar-toggler" type="button" data-toggle="collapse"
+    //                             data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+    //                             aria-expanded="false" aria-label="Toggle navigation">
+    //                             <span class="navbar-toggler-icon"></span>
+    //                         </button>
+    //                         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    //                             <ul class="navbar-nav mr-auto text-right" style={{display:'flex',alignItems:'center'}}>
+    //                                 <li class="nav-item ">
+    //                                     <a class="nav-link en text-light" href="#section">
+    //                                         <span>Home</span>
+    //                                     </a>
+    //                                     <a class="nav-link se text-light" href="#section">
+    //                                         <span>HEM</span>
+    //                                     </a>
+    //                                 </li>
+    //                                 <li class="nav-item">
+    //                                     <a class="nav-link en text-light" href="#section1">
+    //                                     <span>About</span>
+    //                                     </a>
+    //                                     <a class="nav-link se text-light" href="#section1">
+    //                                         <span>OM OSS</span>
+    //                                     </a>
+    //                                 </li>
+    //                                 <li class="nav-item ">
+    //                                     <a class="nav-link en text-light" href="#section2">
+    //                                         <span>Menu</span>
+    //                                     </a>
+    //                                     <a class="nav-link se text-light" href="#section2">
+    //                                         <span>MENY</span>
+    //                                     </a>
+    //                                 </li>
+    //                                 <li class="nav-item">
+    //                                     <a class="nav-link en text-light" href="#section3"><span>Gallery</span></a>
+    //                                     <a class="nav-link se text-light" href="#section3"><span>GALLERI</span></a>
+    //                                 </li>
+    //                                 <li class="nav-item ">
+    //                                     <a class="nav-link en text-light" href="#section4"><span>Contact</span></a>
+    //                                     <a class="nav-link se text-light" href="#section4"><span>KONTAKT</span></a>
+    //                                 </li><br/>
+    //                                 <button class="cateringmenubtn">
+    //                                     <a href="/catering.html">Catering Menu</a>
+    //                                 </button>
+    //                                 <li class="nav-item moblisticons" >
+    //                                     <a href="https://instagram.com/mummus.se?igshid=7toboeu31sp">
+    //                                         <i class="fa fa-instagram mr-lg-1 mr-0"></i>
+    //                                     </a>
+    //                                     <a href="https://www.facebook.com/Mummus-114979863593938/">
+    //                                         <i class="fa fa-facebook-f mr-lg-1 mr-0"></i>
+    //                                     </a>
+    //                                     <a href="mailto:info@mummus.se">
+    //                                         <i class="fa fa-envelope"></i>
+    //                                     </a>
+    //                                 </li>
+    //                                 <li class="nav-item dropdown ml-lg-3 ml-0 mt-lg-0 mt-2">
+    //                                     <button class="btn btn-light dropdown" id="navbarDropdown" role="button"
+    //                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    //                                         <div class="se" style={{display:"block"}}>
+    //                                             <img src="Assets/swedish_flag.png" alt="" class="flag" />
+    //                                             <span class="d-inline-block px-2">Svenska</span>
+    //                                             <img class="pr-2" src="Assets/drop_down.png" alt="" />
+    //                                         </div>
+    //                                         <div class="en" style={{display:"block"}}>
+    //                                             <img src="https://ilunch.nu/public/public_site_assets/images/e-flag.png"
+    //                                                 alt="" class="flag" />
+    //                                             <span class="d-inline-block px-2">English</span>
+    //                                             <img class="pr-2" src="Assets/drop_down.png" alt="" />
+    //                                         </div>
+    //                                     </button>
+    //                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    //                                         <a class="dropdown-item" id="se1" href="#se1" title="">Svenska</a>
+    //                                         <a class="dropdown-item" id="en1" href="#en1">English</a>
+    //                                     </div>
+    //                                 </li>
+    //                             </ul>
+    //                         </div>
+    //                     </nav>
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     </div> */}
+    // </div>

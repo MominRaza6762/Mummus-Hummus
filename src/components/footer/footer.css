@@ -1,0 +1,130 @@
+
+.footer {
+    background: url("/footerbg.png");
+    height: 337px;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-16 {
+    font-size: 18px;
+}
+
+.locton {
+    height: 15px;
+    margin-top: -6px;
+}
+
+.active {
+    background-color: #85c442 !important;
+}
+
+.flow {
+    width: 170px;
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+
+.hover {
+    display: none;
+}
+
+.socialmedia span:hover .hover {
+    background: #85c442;
+    border-radius: 100%;
+    border: 2px solid #85c442;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+}
+
+.non-hover {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #85c442;
+}
+
+.socialmedia span:hover .non-hover {
+    display: none;
+}
+
+.count {
+    color: #80c749;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.map {
+    height: 114%;
+}
+
+.grly-img {
+    background-repeat: no-repeat;
+    background: 100% 100%;
+    min-height: 432px !important;
+    position: relative;
+}
+
+.text-transparent {
+    color: transparent;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.par-we {
+    color: #575757;
+    line-height: 2.3rem;
+}
+
+.inner {
+    height: max-content;
+    background: #000000ad;
+    position: absolute;
+    bottom: 0;
+}
+
+.welcom-heading {
+    width: 600px;
+}
+
+.text-basic {
+    color: #85c442;
+    color: #096e6c;
+}
+
+.text-green {
+    color: #85c442;
+}
+
+.btn-green {
+    background: #85c442;
+}
+
+.glry-heading {
+    width: 360px;
+}
+
+.self-flex {
+    align-self: flex-end;
+}
+
+
+@media screen and (max-width : 768px) {
+    .footer {
+        background: transparent;
+        height: auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #85c442;
+    }
+}

@@ -1,0 +1,62 @@
+.contact-page{
+    display: flex !important;
+    padding: 0 30px !important;
+}
+
+.contactListCont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.locationCont{
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    gap: 5px;
+}
+.callCon,
+.VaraContainer
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    img {
+        width: 12px;
+        background-size: cover;
+    }
+}
+.mailCont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.socialmedia{
+    display: flex;
+}
+@media screen and (max-width:767px) {
+    .contact-page{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        padding: 0 60px !important;
+
+    }
+}
+
+.map-contaier{
+    /* width: 600px; */
+    height: 450px;
+    overflow: hidden;
+}
+@media screen and (max-width : 768px) {
+    .contact-page{
+        display: flex !important;
+        padding: 0 !important;
+        margin: 50px 30px !important;
+    }
+}

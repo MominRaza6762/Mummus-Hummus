@@ -1,0 +1,119 @@
+/* Navbar Styles */
+.navbar {
+    height: 80px;
+    /* Adjust this to match your logo height */
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 3px 0 !important;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+        text-align: center !important;
+    }
+
+    .navbar-collapse,
+    .navbar-nav,
+    .navbar-nav .nav-item,
+    .navbar-nav .nav-link {
+        background-color: transparent !important;
+        text-align: center !important;
+        color: white !important;
+
+    }
+}
+
+.moblisticons {
+    background-color: transparent !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.headingMainColorful {
+    transition: margin-top 0.3s ease-in-out !important;
+}
+
+#section {
+    transition: margin-top 0.3s ease-in-out;
+}
+
+
+
+.navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 300px;
+    padding-top: 100px !important;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: transparent !important;
+
+}
+
+@media screen and (max-width : 1050px) {
+    .logo-img {
+        height: 250px;
+        padding-top: 70px !important;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .logo-img {
+        height: 150px;
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .logo-img {
+        height: 100px;
+        padding-top: 0 !important;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .logo-img {
+        height: 60px;
+    }
+}
+
+.moblisticons {
+    display: none !important;
+}
+
+@media screen and (max-width : 1200px) {
+    .moblisticons {
+        display: block !important;
+    }
+}
